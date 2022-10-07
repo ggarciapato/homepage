@@ -16,7 +16,7 @@ export function AboutMe(theme) {
                     <Typography variant="h3">
                         About me
                     </Typography>
-                    <Typography variant="p">
+                    <Typography variant="body2">
                         Hello. My name is Guilherme Garcia, 
                         evolutionary biologist and data scientist.
                         After completing my phD in Evolutionary Biology 
