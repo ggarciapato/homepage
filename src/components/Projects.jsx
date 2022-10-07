@@ -12,8 +12,8 @@ import {
 import useStyles from "../styles";
 import projects from "./projects.json";
 
-function renderCards(cards, classes) {
-    return projects.map((project) => (
+function renderCards(content, classes) {
+    return content.map((project) => (
         <>
             <Grid item key={project.title} xs={12} sm={6} md={4}>
                 <Card className={classes.card}>
@@ -49,8 +49,8 @@ export function Projects(theme) {
                 </Typography>
             </Container>
             <Container className={classes.cardGrid} maxWidth="md">
-               <Grid key="cardGrid" container spacing={2} justify="center">
-                    {renderCards(cards, classes)}
+               <Grid container spacing={2} justify="center">
+                    {renderCards(projects, classes)}
                 </Grid>
             </Container>
         </>
