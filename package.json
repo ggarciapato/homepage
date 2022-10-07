@@ -1,7 +1,7 @@
 {
   "name": "homepage",
   "version": "0.1.0",
-  "homepage": "https://ggarciapato.github.io/home",
+  "homepage": "https://ggarciapato.github.io/homepage",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",
