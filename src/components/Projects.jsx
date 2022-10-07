@@ -6,8 +6,7 @@ import {
     CardContent,
     Grid,
     Typography,
-    Container,
-    Box
+    Container
 } from "@material-ui/core";
 
 import useStyles from "../styles";
