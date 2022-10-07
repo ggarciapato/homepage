@@ -49,7 +49,7 @@ export function Projects(theme) {
                 </Typography>
             </Container>
             <Container className={classes.cardGrid} maxWidth="md">
-               <Grid container spacing={2} justify="center">
+               <Grid key="cardGrid" container spacing={2} justify="center">
                     {renderCards(cards, classes)}
                 </Grid>
             </Container>
