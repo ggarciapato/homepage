@@ -1,8 +1,7 @@
 import { 
     Box,
     Typography, 
-    Container, 
-    Card
+    Container
   } from "@material-ui/core"
 
 import useStyles from "../styles";
