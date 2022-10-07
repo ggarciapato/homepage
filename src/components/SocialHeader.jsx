@@ -31,7 +31,7 @@ export function SocialHeader(theme) {
             className={classes.socials}
           >
             {socialData.map((social) => (
-              <Grid item key={social}>
+              <Grid item key={social.title}>
                 <a href={social.url}>
                   <Button>
                     <svg 

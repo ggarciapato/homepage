@@ -15,7 +15,7 @@ import projects from "./projects.json";
 function renderCards(cards, classes) {
     return projects.map((project) => (
         <>
-            <Grid item key={project} xs={12} sm={6} md={4}>
+            <Grid item key={project.title} xs={12} sm={6} md={4}>
                 <Card className={classes.card}>
                     <CardActionArea>
                         <CardMedia
