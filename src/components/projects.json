@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Project One",
+        "image": "giardia.png",
+        "description": "This is a project description",
+        "alt": "This is displayed when we hover the mouse"
+    },
+    {
+        "title": "Project Two",
+        "image": "giardia.png",
+        "alt": "This is displayed when we hover the mouse",
+        "description": "This is another project description"
+    },
+    {
+        "title": "Project Three",
+        "image": "giardia.png",
+        "alt": "This is displayed when we hover the mouse",
+        "description": "Yet another project description"
+    }
+]
