@@ -40,7 +40,6 @@ function renderCards(content, classes) {
 
 export function Projects(theme) {
     const classes = useStyles(theme);
-    const cards = [...Array(10).keys()];
     return (
         <>
             <Container className={classes.title}>
