@@ -6,9 +6,9 @@ const useStyles = makeStyles((theme) => ({
   },
   mainHeader: {
     direction: "row"
+
   },
-  title: {
-    backgroundColor: theme.palette.background.paper,
+  projectTitle: {
     padding: theme.spacing(5, 5, 3), 
     display: "flex",
     justifyContent: "space-between"
@@ -28,6 +28,15 @@ const useStyles = makeStyles((theme) => ({
     width: "50px",
     marginRight: "10px"
   }, 
+  containerToolbar: {
+    // padding: theme.spacing(2, 0, 2),
+    // justifyContent: "flex-end", 
+    alignItems: "flex-start",
+    flexDirection: "row",
+    justifyContent: "space-between"
+    // width: "50px",
+    // marginRight: "10px"
+  }, 
   icon: {
     marginRight: "20px"
   },
@@ -36,9 +45,6 @@ const useStyles = makeStyles((theme) => ({
   }, 
   cardGrid: {
     padding: "20px 20px",
-    // spacing: "2",
-    // justifyContent: "center",
-    // maxWidth: "md"
   }, 
   card: {
     height: "100%",

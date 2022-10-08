@@ -50,12 +50,14 @@ export function Projects(theme) {
     const classes = useStyles(theme);
     return (
         <>
-            <Container className={classes.title}>
+            <Container className={classes.projectTitle}>
                 <Typography variant="h4">
                     Projects
                 </Typography>
             </Container>
-            {renderCards(projects, classes)}
+            <Container>
+                {renderCards(projects, classes)}
+            </Container>
         </>
     )
 }
