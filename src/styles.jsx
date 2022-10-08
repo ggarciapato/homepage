@@ -5,8 +5,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#1c1d25"
   },
   mainHeader: {
-    direction: "row"
-
+    direction: "column"
   },
   projectTitle: {
     padding: theme.spacing(5, 5, 3), 
@@ -24,8 +23,8 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2, 0, 2),
     justifyContent: "flex-end", 
     alignItems: "flex-end",
-    flexDirection: "column",
-    width: "50px",
+    flexDirection: "row",
+    // width: "50px",
     marginRight: "10px"
   }, 
   containerToolbar: {

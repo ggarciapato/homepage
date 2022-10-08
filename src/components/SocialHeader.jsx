@@ -4,8 +4,7 @@ import {
   Grid, 
   Typography, 
   Button,
-  Container, 
-  Box
+  Container
 } from "@material-ui/core"
 
 import useStyles from "../styles";
