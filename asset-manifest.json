@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/homepage/static/css/main.815e62c8.css",
-    "main.js": "/homepage/static/js/main.50372b36.js",
+    "main.js": "/homepage/static/js/main.d67b333d.js",
     "static/js/787.5c39024c.chunk.js": "/homepage/static/js/787.5c39024c.chunk.js",
     "static/media/giardia.png": "/homepage/static/media/giardia.5d134d81c3534709d82b.png",
     "static/media/perfil.png": "/homepage/static/media/perfil.5ea7bdb1308625d809e2.png",
-    "static/media/circle41032.png": "/homepage/static/media/circle41032.25b7e0b559f75a2b6055.png",
+    "static/media/temperatura_cover.png": "/homepage/static/media/temperatura_cover.83b5abae6707dd649a1e.png",
     "static/media/logo.png": "/homepage/static/media/logo.25b7e0b559f75a2b6055.png",
     "static/media/logo2.svg": "/homepage/static/media/logo2.4eeaed5f706ec09efba9.svg",
-    "static/media/logo.svg": "/homepage/static/media/logo.d4e1e4fac470c27f0150.svg",
     "index.html": "/homepage/index.html",
     "main.815e62c8.css.map": "/homepage/static/css/main.815e62c8.css.map",
-    "main.50372b36.js.map": "/homepage/static/js/main.50372b36.js.map",
+    "main.d67b333d.js.map": "/homepage/static/js/main.d67b333d.js.map",
     "787.5c39024c.chunk.js.map": "/homepage/static/js/787.5c39024c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.815e62c8.css",
-    "static/js/main.50372b36.js"
+    "static/js/main.d67b333d.js"
   ]
 }
