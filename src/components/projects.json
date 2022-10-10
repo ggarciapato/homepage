@@ -1,9 +1,9 @@
 [
     {
-        "title": "Project One",
-        "image": "giardia.png",
-        "description": "This is a project description",
-        "alt": "This is displayed when we hover the mouse"
+        "title": "Climate Changes in Brazil",
+        "image": "temperatura_cover.png",
+        "description": "Constructing historic temperature maps for Brazil",
+        "alt": "Climate Changes in Brazil"
     },
     {
         "title": "Project Two",
