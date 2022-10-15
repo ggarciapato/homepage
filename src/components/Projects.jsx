@@ -31,10 +31,10 @@ function renderCards(content, classes) {
                                 title={project.alt}
                             />
                             <CardContent className={classes.cardContent}>
-                                <Typography gutterBottom variant="h5">
+                                <Typography gutterBottom variant="h6">
                                     {project.title}
                                 </Typography>
-                                <Typography> 
+                                <Typography variant='subtitle2'> 
                                     {project.description} 
                                 </Typography>
                             </CardContent>
