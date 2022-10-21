@@ -2,30 +2,39 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
-    backgroundColor: "#1c1d25"
+    backgroundColor: "#1c1d25", 
+    position: "sticky"
   },
   mainHeader: {
-    direction: "column"
+    display: "flex",
+    flexDirection: "column",
+    direction: "column",
+    alignItems: "flex-start",
+    padding: theme.spacing(2, 0, 2),
+    gutterBottom: "true"
+    
   },
   projectTitle: {
-    padding: theme.spacing(5, 5, 3), 
+    padding: theme.spacing(4, 5, 2), 
     display: "flex",
     justifyContent: "space-between"
   },
   container: {
-    height: "100vh",
+    height: "80vh",
     backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(8, 5, 6), 
     display: "flex",
     justifyContent: "space-between"
   },
   socials: {
-    padding: theme.spacing(2, 0, 2),
+    display: "flex",
+    padding: theme.spacing(.5, 0, .5),
     justifyContent: "flex-end", 
     alignItems: "flex-end",
-    flexDirection: "row",
-    // width: "50px",
-    marginRight: "10px"
+    flexDirection: "column",
+    // flexGrow: 1,
+    width: "30vw",
+    // marginRight: "10px"
   }, 
   containerToolbar: {
     // padding: theme.spacing(2, 0, 2),
@@ -58,6 +67,15 @@ const useStyles = makeStyles((theme) => ({
   },
   headshot: {
     marginRight: "20px"
+  },
+  footer: {
+    position: "sticky",
+    color: "#fff",
+    backgroundColor: "#1c1d25",
+    height: "50px",
+    alignItems: "center",
+    display: "flex",
+    justifyContent: "center"
   }
 }));
 

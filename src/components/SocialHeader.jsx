@@ -3,7 +3,7 @@ import {
   Toolbar, 
   Grid, 
   Typography, 
-  Button,
+  IconButton,
   Container
 } from "@material-ui/core"
 
@@ -14,10 +14,10 @@ export function SocialHeader(theme) {
   const classes = useStyles(theme);
   return (
     <>
-      <AppBar position="static" className={classes.appBar}>
+      <AppBar position="sticky" className={classes.appBar}>
         <Toolbar className={classes.containerToolbar}>
             <Container className={classes.mainHeader}>
-              <Typography variant="h3">
+              <Typography variant="h4">
                 Guilherme Garcia
               </Typography>
               <Typography variant="h6">
@@ -26,24 +26,24 @@ export function SocialHeader(theme) {
             </Container>
             <Grid 
               container 
-              spacing={1} 
+              spacing={0} 
               columns={1}
               className={classes.socials}
             >
               {socialData.map((social) => (
                 <Grid item key={social.title}>
                   <a href={social.url}>
-                    <Button>
+                    <IconButton>
                       <svg 
                         xmlns="http://www.w3.org/2000/svg" 
                         fill="#ffffff" 
-                        width="50" 
-                        height="50" 
+                        width="30" 
+                        height="30" 
                         viewBox="0 0 24 24"
                         >
                         <path d={social.path}/>
                       </svg>
-                    </Button>
+                    </IconButton>
                   </a>
                 </Grid>
               ))}
