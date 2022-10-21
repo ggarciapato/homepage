@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/homepage/static/css/main.815e62c8.css",
-    "main.js": "/homepage/static/js/main.6de8b1ce.js",
+    "main.js": "/homepage/static/js/main.d6288c0d.js",
     "static/js/787.5c39024c.chunk.js": "/homepage/static/js/787.5c39024c.chunk.js",
-    "static/media/temperature_report.ipynb": "/homepage/static/media/temperature_report.da23ad65e4e95aae796b.ipynb",
+    "static/media/temperature_report.ipynb": "/homepage/static/media/temperature_report.b7414a4fd2722ab13710.ipynb",
     "static/media/giardia.png": "/homepage/static/media/giardia.5d134d81c3534709d82b.png",
     "static/media/perfil.png": "/homepage/static/media/perfil.5ea7bdb1308625d809e2.png",
     "static/media/temperatura_cover.png": "/homepage/static/media/temperatura_cover.0fba629e4f0fd7714d96.png",
@@ -11,11 +11,11 @@
     "static/media/logo2.svg": "/homepage/static/media/logo2.4eeaed5f706ec09efba9.svg",
     "index.html": "/homepage/index.html",
     "main.815e62c8.css.map": "/homepage/static/css/main.815e62c8.css.map",
-    "main.6de8b1ce.js.map": "/homepage/static/js/main.6de8b1ce.js.map",
+    "main.d6288c0d.js.map": "/homepage/static/js/main.d6288c0d.js.map",
     "787.5c39024c.chunk.js.map": "/homepage/static/js/787.5c39024c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.815e62c8.css",
-    "static/js/main.6de8b1ce.js"
+    "static/js/main.d6288c0d.js"
   ]
 }
