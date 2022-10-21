@@ -28,7 +28,7 @@ function renderCards(content, classes) {
                     <Card className={classes.card}>
                         <CardActionArea
                             component={RouterLink}
-                            to={`/projects/${project.tag}`}
+                            to={`/homepage/projects/${project.tag}`}
                             state={project}
                         >
                             <CardMedia
