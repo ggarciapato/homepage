@@ -30,11 +30,11 @@ theme = responsiveFontSizes(theme);
 const router = createBrowserRouter(
     createRoutesFromElements(
         <Route 
-            path='/'
+            path='/homepage'
             element={<Frame theme={theme} />}
         >
             <Route index element={<Home theme={theme} />} />
-            <Route path="projects/:project_tag" element={<Project />} />
+            <Route path="/homepage/projects/:project_tag" element={<Project />} />
         </Route>
         )
     );
