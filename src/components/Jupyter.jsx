@@ -1,13 +1,15 @@
 import React from "react";
-// import { Typography } from "@material-ui/core";
 import ReactMarkdown from "react-markdown";
+// import { Typography } from "@material-ui/core";
 
 
 function renderMarkdownCell(source) {
     return (
         <>
             {source.map((line) => 
-                <ReactMarkdown> {line} </ReactMarkdown>
+                <ReactMarkdown> 
+                    {line} 
+                </ReactMarkdown>
             )}
         </>
     )
