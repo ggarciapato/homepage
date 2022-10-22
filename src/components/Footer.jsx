@@ -1,17 +1,19 @@
 import { 
     Typography, 
-    Container 
+    Box 
 } from "@material-ui/core";
 
 import useStyles from "../styles";
 
-export function Footer(theme) {
-    const classes = useStyles(theme);
+export function Footer() {
+    const classes = useStyles();
     return (
-        <Container className={classes.footer} position='sticky'>
+        <Box 
+            className={classes.footer} 
+        >
             <Typography>
                 Contact: guilherme.pato.garcia at gmail.com
             </Typography>
-        </Container>
+        </Box>
     )
 }

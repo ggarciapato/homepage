@@ -7,8 +7,8 @@ import {
 import useStyles from "../styles";
 import headshot from "../images/perfil.png";
 
-export function AboutMe(theme) {
-    const classes = useStyles(theme);    
+export function AboutMe() {
+    const classes = useStyles();    
     return (
         <>
             <Container className={classes.container}>

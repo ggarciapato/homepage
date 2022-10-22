@@ -28,11 +28,11 @@ const useStyles = makeStyles((theme) => ({
   },
   socials: {
     display: "flex",
-    padding: theme.spacing(.5, 0, .5),
+    // padding: theme.spacing(.5, 0, .5),
     justifyContent: "flex-end", 
     alignItems: "flex-end",
     flexDirection: "column",
-    // flexGrow: 1,
+    flexGrow: 1,
     width: "30vw",
     // marginRight: "10px"
   }, 
@@ -69,13 +69,49 @@ const useStyles = makeStyles((theme) => ({
     marginRight: "20px"
   },
   footer: {
-    position: "sticky",
+    position: "fixed",
+    left: "0px",
+    bottom: "0px",
+    width: "100%",
     color: "#fff",
     backgroundColor: "#1c1d25",
-    height: "50px",
+    height: "30px",
     alignItems: "center",
     display: "flex",
     justifyContent: "center"
+  },
+  slideBox: {        
+    display: "block",
+    // maxWidth: 400,
+    // flexGrow: 1,
+    justifyContent: 'center',
+    alignItems: 'space-around',
+    bgcolor: "background.default"
+  },
+  slideText: {
+    // display: 'block',
+    // alignItems: 'center',
+    padding: theme.spacing(1, 1, 1),
+    // height: 100,
+    pl: 2,
+    bgcolor: 'background.default',
+    // maxWidth: "300px"
+  },
+  slideImage: {
+    width: "100%"
+  },
+  slide: {
+    padding: theme.spacing(2, 0, 2),
+    display: 'flex',
+    flexDirection: 'row',
+    flexWrap: "wrap",
+    alignItems: 'space-between',
+    justifyContent: 'center',
+    flexGrow: 1,
+    // minWidth: '40vw',
+    minHeight: "55vh",
+    maxHeight: "55vh",
+    maxWidth: '600px'
   }
 }));
 

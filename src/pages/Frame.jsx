@@ -7,12 +7,12 @@ import { SocialHeader } from "../components/SocialHeader";
 // import { Projects } from "../components/Projects";
 import { Footer } from "../components/Footer";
 
-export function Frame(theme) {
+export function Frame() {
   return (
     <>
-        <SocialHeader theme={theme}/>
+        <SocialHeader />
         <Outlet />
-        <Footer theme={theme}/>
+        <Footer />
    </>
   );
 }

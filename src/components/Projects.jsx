@@ -53,8 +53,8 @@ function renderCards(content, classes) {
     )
 };
 
-export function Projects(theme) {
-    const classes = useStyles(theme);
+export function Projects() {
+    const classes = useStyles();
     return (
         <>
             <Container className={classes.projectTitle}>
