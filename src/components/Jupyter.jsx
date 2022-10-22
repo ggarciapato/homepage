@@ -87,6 +87,7 @@ export function Jupyter(props) {
 
   useEffect(() => {
     getNotebook();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (state.isLoading) { 
