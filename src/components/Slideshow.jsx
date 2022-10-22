@@ -5,7 +5,10 @@ import {
   Paper,
   Button,
   MobileStepper,
-  // Grid
+  Grid,
+  Card,
+  CardMedia,
+  CardContent
 } from "@material-ui/core";
 
 import { 
@@ -49,29 +52,41 @@ export function Slideshow(props) {
       >
         {content.map(function(step, index) {
           return (
-            <Box
+            <Grid
+              container
               key={`${step.type} ${index}`}
               className={classes.slide}
-              // sm={1} md={2} lg={2}
+              component={Card}
+              // sm={12} xs={12} md={6} lg={6}
             >
               {Math.abs(activeStep - index) <= 2 
                 ? (
                   step.type === "image" && (
-                    <Box
-                      className={classes.slideImage}
-                      component="img"
-                      src={ `data:image/png;base64, ${step.image}` }
+                    <Grid 
+                      item 
+                      sm={12} xs={12} md={4} lg={4}
+                    > 
+                      <CardMedia
+                        className={classes.slideImage}
+                        component="img"
+                        src={ `data:image/png;base64, ${step.image}` }
                       />
+                    </Grid>
                 )) : null}
-                <Paper
-                  elevation={0}
-                  className={classes.slideText}
+                <Grid 
+                  item
+                  sm={12} xs={12} md={5} lg={5}
+                >
+                  <CardContent
+                    elevation={0}
+                    className={classes.slideText}
                   >
                     <ReactMarkdown>
                       {step.text.join(' ')} 
                     </ReactMarkdown>
-                  </Paper>
-                </Box>
+                  </CardContent>
+                  </Grid>
+                </Grid>
               );
             })}
         </SwipeableViews>

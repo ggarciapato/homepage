@@ -90,7 +90,8 @@ const useStyles = makeStyles((theme) => ({
   },
   slideText: {
     // display: 'block',
-    // alignItems: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
     padding: theme.spacing(1, 1, 1),
     // height: 100,
     pl: 2,
@@ -103,15 +104,15 @@ const useStyles = makeStyles((theme) => ({
   slide: {
     padding: theme.spacing(2, 0, 2),
     display: 'flex',
-    flexDirection: 'row',
-    flexWrap: "wrap",
-    alignItems: 'space-between',
+    // flexDirection: 'column',
+    // flexWrap: "wrap",
+    // alignItems: 'space-around',
     justifyContent: 'center',
     flexGrow: 1,
     // minWidth: '40vw',
     minHeight: "55vh",
-    maxHeight: "55vh",
-    maxWidth: '600px'
+    maxHeight: "50vh",
+    //maxWidth: '600px'
   }
 }));
 
