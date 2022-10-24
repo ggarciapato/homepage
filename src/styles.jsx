@@ -86,6 +86,7 @@ const useStyles = makeStyles((theme) => ({
     // flexGrow: 1,
     justifyContent: 'center',
     alignItems: 'space-around',
+    overflow: 'scroll',
     bgcolor: "background.default"
   },
   slideText: {
@@ -104,12 +105,12 @@ const useStyles = makeStyles((theme) => ({
   slide: {
     padding: theme.spacing(2, 0, 2),
     display: 'flex',
-    overflowY: 'scroll',
     // flexDirection: 'column',
     // flexWrap: "wrap",
     // alignItems: 'space-around',
     justifyContent: 'center',
     flexGrow: 1,
+    overflow: 'scroll',
     // minWidth: '40vw',
     minHeight: "55vh",
     maxHeight: "50vh",
