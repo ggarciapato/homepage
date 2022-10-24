@@ -1,7 +1,7 @@
 [
     {
         "title": "Historic Temperature Maps for Brazil",
-        "image": "temperatura_cover.png",
+        "image": "temperature_cover.png",
         "description": "Estimating average temperature maps using Tensorflow Probability",
         "alt": "Climate Changes in Brazil",
         "tag": "temperature",

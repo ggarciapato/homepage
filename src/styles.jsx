@@ -26,16 +26,6 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     justifyContent: "space-between"
   },
-  socials: {
-    display: "flex",
-    // padding: theme.spacing(.5, 0, .5),
-    justifyContent: "flex-end", 
-    alignItems: "flex-end",
-    flexDirection: "column",
-    flexGrow: 1,
-    width: "30vw",
-    // marginRight: "10px"
-  }, 
   containerToolbar: {
     // padding: theme.spacing(2, 0, 2),
     // justifyContent: "flex-end", 
@@ -68,6 +58,16 @@ const useStyles = makeStyles((theme) => ({
   headshot: {
     marginRight: "20px"
   },
+  socials: {
+    display: "flex",
+    // padding: theme.spacing(.5, 0, .5),
+    justifyContent: "center", 
+    alignItems: "center",
+    flexDirection: "row",
+    flexGrow: 1,
+    width: "30vw",
+    // marginRight: "10px"
+  }, 
   footer: {
     position: "fixed",
     left: "0px",
@@ -75,8 +75,8 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     color: "#fff",
     backgroundColor: "#1c1d25",
-    height: "30px",
-    alignItems: "center",
+    height: "50px",
+    alignItems: "space-around",
     display: "flex",
     justifyContent: "center"
   },
@@ -92,7 +92,7 @@ const useStyles = makeStyles((theme) => ({
     // display: 'block',
     alignItems: 'center',
     justifyContent: 'center',
-    padding: theme.spacing(1, 1, 1),
+    padding: theme.spacing(0, 1, 1),
     // height: 100,
     pl: 2,
     bgcolor: 'background.default',
@@ -104,6 +104,7 @@ const useStyles = makeStyles((theme) => ({
   slide: {
     padding: theme.spacing(2, 0, 2),
     display: 'flex',
+    overflowY: 'scroll',
     // flexDirection: 'column',
     // flexWrap: "wrap",
     // alignItems: 'space-around',

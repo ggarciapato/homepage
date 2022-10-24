@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import ReactMarkdown from "react-markdown";
 import {
   Box,
-  Paper,
   Button,
   MobileStepper,
   Grid,
@@ -62,7 +61,7 @@ export function Slideshow(props) {
               {Math.abs(activeStep - index) <= 2 
                 ? (
                   step.type === "image" && (
-                    <Grid 
+                    <Grid
                       item 
                       sm={12} xs={12} md={4} lg={4}
                     > 
@@ -75,7 +74,7 @@ export function Slideshow(props) {
                 )) : null}
                 <Grid 
                   item
-                  sm={12} xs={12} md={5} lg={5}
+                  sm={12} xs={12} md={6} lg={6}
                 >
                   <CardContent
                     elevation={0}
