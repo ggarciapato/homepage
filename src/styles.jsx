@@ -82,11 +82,8 @@ const useStyles = makeStyles((theme) => ({
   },
   slideBox: {        
     display: "block",
-    // maxWidth: 400,
-    // flexGrow: 1,
     justifyContent: 'center',
     alignItems: 'space-around',
-    overflow: 'scroll',
     bgcolor: "background.default"
   },
   slideText: {
@@ -94,10 +91,8 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     justifyContent: 'center',
     padding: theme.spacing(0, 1, 1),
-    // height: 100,
     pl: 2,
     bgcolor: 'background.default',
-    // maxWidth: "300px"
   },
   slideImage: {
     width: "100%"
@@ -105,16 +100,11 @@ const useStyles = makeStyles((theme) => ({
   slide: {
     padding: theme.spacing(2, 0, 2),
     display: 'flex',
-    // flexDirection: 'column',
-    // flexWrap: "wrap",
-    // alignItems: 'space-around',
     justifyContent: 'center',
     flexGrow: 1,
-    overflow: 'scroll',
-    // minWidth: '40vw',
     minHeight: "55vh",
     maxHeight: "50vh",
-    //maxWidth: '600px'
+    overflow: "scroll"
   }
 }));
 

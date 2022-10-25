@@ -22,7 +22,17 @@ import { Project } from "./pages/Project";
 let theme = createTheme({
     typography: {
       fontFamily: "Rubik"
-    }
+    },
+    overrides: {
+        // Style sheet name ⚛️
+        MuiCard: {
+          // Name of the rule
+          root: {
+            // Some CSS
+            overflow: 'scroll',
+          },
+        },
+      },
 });
   
 theme = responsiveFontSizes(theme);

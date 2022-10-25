@@ -1,18 +1,20 @@
 [
     {
-        "title": "Historic Temperature Maps for Brazil",
+        "title": "Temperature Maps for Brazil",
         "image": "temperature_cover.png",
-        "description": "Estimating average temperature maps using Tensorflow Probability",
+        "description": "Estimating average temperature maps with Tensorflow Probability",
         "alt": "Climate Changes in Brazil",
         "tag": "temperature",
         "jupyter": "true",
         "filename": "temperature_report.ipynb"
     },
     {
-        "title": "Project Two",
-        "image": "giardia.png",
-        "alt": "This is displayed when we hover the mouse",
-        "description": "This is another project description"
+        "title": "Browser learns to play Pong",
+        "image": "pong_cover.png",
+        "alt": "Learning Pong with tensorflow.js",
+        "tag": "pong",
+        "description": "Neurogenetic evolution with tensorflow.js",
+        "jupyter": "false"
     },
     {
         "title": "Project Three",
