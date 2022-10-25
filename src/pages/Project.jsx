@@ -11,7 +11,7 @@ export function Project() {
             />
         );
     } else {
-        if (location.state.tag === 'pong') {
+        if (location.state.tag === 'neuropong') {
             return (<NeuroPong />);
         }
     }

@@ -11,8 +11,8 @@
     {
         "title": "Browser learns to play Pong",
         "image": "pong_cover.png",
-        "alt": "Learning Pong with tensorflow.js",
-        "tag": "pong",
+        "alt": "NeuroPong with tensorflow.js",
+        "tag": "neuropong",
         "description": "Neurogenetic evolution with tensorflow.js",
         "jupyter": "false"
     },
