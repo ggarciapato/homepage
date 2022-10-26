@@ -2,7 +2,7 @@
     {
         "title": "Temperature Maps for Brazil",
         "image": "temperature_cover.png",
-        "description": "Estimating average temperature maps with Tensorflow Probability",
+        "description": "Gaussian Process Regression with Tensorflow Probability",
         "alt": "Climate Changes in Brazil",
         "tag": "temperature",
         "jupyter": "true",
@@ -13,7 +13,7 @@
         "image": "pong_cover.png",
         "alt": "NeuroPong with tensorflow.js",
         "tag": "neuropong",
-        "description": "Neurogenetic evolution with tensorflow.js",
+        "description": "Reinforced Learning with tensorflow.js",
         "jupyter": "false"
     },
     {
