@@ -4,7 +4,7 @@ import { Memory } from "./Memory";
 
 const canvasWidth = 600;
 const canvasHeight = 400;
-const speedScale = 5;
+const speedScale = 10;
 const stickSize = 60;
 const MAX_SCORE = 10;
 
@@ -140,11 +140,9 @@ export class Paddle {
 		this.other_score = 0;
 
 		this.brain = new Brain(
-			new Model([4], 4, 3, 100), 
+			new Model(4, 4, 3, 100), 
 			new Memory(500)
 		)
-
-        // console.log(`built the player ${this.playerTwo ? 2 : 1}`);
 	}
 
 	display() {
@@ -171,8 +169,8 @@ export class Paddle {
 	}
 
 	move(action) {
+        // console.log(action);
 		this.velocityY = action * speedScale;
-		// this.velocityY = 5 * (Math.random() - .5) * speedScale;
 		// stop paddle from moving if it reaches edge
 		let newY = this.velocityY + this.y;
 		this.upperEdge = newY + (this.size / 2);
@@ -199,16 +197,20 @@ export class Game {
     }
 
     async resetGame () {
+        this._p5.noLoop();
+        // console.log(this._p5.isLooping());
+        await this.playerOne.brain.replay();
+        // await this.playerTwo.brain.replay();
+
         this.playerOne.score = 0;
         this.playerOne.other_score = 0;
-        this.playerOne.y = 0;
+        this.playerOne.y = canvasHeight / 2;
         
         this.playerTwo.score = 0;
         this.playerTwo.other_score = 0;
-        this.playerTwo.y = 0;
+        this.playerTwo.y = canvasHeight / 2;
+        this._p5.loop();
 
-        await this.playerOne.brain.replay();
-        await this.playerTwo.brain.replay();
     }
 
     step() {

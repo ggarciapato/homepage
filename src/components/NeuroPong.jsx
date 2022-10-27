@@ -17,10 +17,6 @@ function setup(p5, canvasParentRef) {
 	// (without that p5 will render the canvas outside of your component)
 	game = new Game(p5);
 	p5.createCanvas(game.field.canvasWidth, game.field.canvasHeight).parent(canvasParentRef);
-	// ball = new Ball(p5);
-	// field = new Field(p5);
-	// playerOne = new Paddle(p5, false);
-	// playerTwo = new Paddle(p5, true);
 };
 
 function draw (p5) {

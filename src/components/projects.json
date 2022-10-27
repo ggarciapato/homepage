@@ -13,7 +13,7 @@
         "image": "pong_cover.png",
         "alt": "NeuroPong with tensorflow.js",
         "tag": "neuropong",
-        "description": "Reinforced Learning with tensorflow.js",
+        "description": "Reinforcement Learning with tensorflow.js",
         "jupyter": "false"
     },
     {

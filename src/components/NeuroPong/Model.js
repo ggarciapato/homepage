@@ -2,7 +2,6 @@ import {
     layers,
     LayersModel, 
     sequential, 
-    Tensor, 
     tidy
 } from "@tensorflow/tfjs";
 
@@ -40,7 +39,7 @@ export class Model {
             this.network.add(
                 layers.dense({
                     units: hiddenLayerSize,
-                    activation: 'relu',
+                    activation: 'sigmoid',
                     // inputShape only required for first layer
                     inputShape: i === 0 ? [this.nStates] : undefined
                 })
@@ -66,7 +65,17 @@ export class Model {
      * @param {Tensor[]} yBatch 
      */
     async train(xBatch, yBatch) {
-        await this.network.fit(xBatch, yBatch)
+        try {
+            const history = await this.network.fit(
+                xBatch, yBatch, {epochs: 10, verbose: true}
+            );
+            console.log(history.loss);
+        } catch (e) {
+            console.log(e);
+        } finally {
+            xBatch.dispose();
+            yBatch.dispose();
+        }
     }
 
     /**
