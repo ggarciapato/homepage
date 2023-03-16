@@ -8,18 +8,18 @@
         "jupyter": "true",
         "filename": "temperature_report.ipynb"
     },
-    {
-        "title": "Browser learns to play Pong",
-        "image": "pong_cover.png",
-        "alt": "NeuroPong with tensorflow.js",
-        "tag": "neuropong",
-        "description": "Reinforcement Learning with tensorflow.js",
-        "jupyter": "false"
-    },
-    {
-        "title": "Project Three",
-        "image": "giardia.png",
-        "alt": "This is displayed when we hover the mouse",
-        "description": "Yet another project description"
-    }
+    // {
+    //     "title": "Browser learns to play Pong",
+    //     "image": "pong_cover.png",
+    //     "alt": "NeuroPong with tensorflow.js",
+    //     "tag": "neuropong",
+    //     "description": "Reinforcement Learning with tensorflow.js",
+    //     "jupyter": "false"
+    // },
+    // {
+    //     "title": "Project Three",
+    //     "image": "giardia.png",
+    //     "alt": "This is displayed when we hover the mouse",
+    //     "description": "Yet another project description"
+    // }
 ]
